@@ -3,8 +3,9 @@ var fs = require('fs');
 
 function save() {
     remote.getCurrentWindow().webContents.printToPDF({
-        pageSize: "A3"
-        , printBackground: true
+        pageSize: "A3", // was "A3"
+        printBackground: true,
+        marginsType: 1
     }, function (err, data) {
         fs.writeFile('holt_resume.pdf', data, function (err) {
             if (err) {
