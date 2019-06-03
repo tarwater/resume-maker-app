@@ -78,6 +78,11 @@ img {
     float: left;
 }
 
+.name-profile {
+    width: 100%;
+    float: left;
+}
+
 .value {
     width: 60%;
     float: right;
@@ -125,7 +130,7 @@ li {
 }
 
 
-span {
+.skills-header {
     font-size: 1.3em;
     display: inline;
 
@@ -155,9 +160,16 @@ span {
 }
 
 .top-lists li {
-    height: 2em;
     line-height: 2em;
     /*display: table-cell;*/
+}
+
+.profile-desc {
+    line-height: 1.2em;
+}
+
+.profile-desc li {
+    padding-top: 8px;
 }
 
 .jobs-table td {
