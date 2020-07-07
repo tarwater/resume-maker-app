@@ -13,6 +13,6 @@
     "lightning-image-poly": "0.0.10"
   },
   "devDependencies": {
-    "electron": "1.7.9"
+    "electron": "7.2.4"
   }
 }
