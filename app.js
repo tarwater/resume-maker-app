@@ -1,8 +1,8 @@
 var electron = require('electron');
 electron.app.on('ready', function (){
-    
-    var mainWindow = new electron.BrowserWindow({width: 1920, height: 1280});
-    
+
+    var mainWindow = new electron.BrowserWindow();
+
     mainWindow.loadURL("file://" + __dirname + "/index.html");
-    
+
 });
